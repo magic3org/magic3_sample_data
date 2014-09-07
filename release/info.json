@@ -1,0 +1,12 @@
+[
+    {
+        "id": "animal_world",
+	"description": "フォトギャラリー「動物の世界」。用途は会員制の画像閲覧サイト。",
+	"category": "build_site"
+    },
+    {
+        "id": "animal_world2",
+	"description": "",
+	"category": "build_site"
+    }
+]
