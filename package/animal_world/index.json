@@ -1,0 +1,26 @@
+[
+    {
+        "no": "1",
+	"description": "ファイルコピー",
+	"operation": "copyfile",
+	"script": "conf/copyfile1.json"
+    },
+    {
+        "no": "2",
+	"description": "ファイルコピー",
+	"operation": "copyfile",
+	"script": "conf/copyfile2.json"
+    },
+    {
+        "no": "3",
+	"description": "ファイルコピー",
+	"operation": "copyfile",
+	"script": "conf/copyfile3.json"
+    },
+    {
+        "no": "4",
+	"description": "DBデータインストール",
+	"operation": "execsql",
+	"script": "sql/install.sql"
+    }
+]

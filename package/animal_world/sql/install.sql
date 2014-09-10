@@ -172,4 +172,41 @@ INSERT INTO photo
 (31, 'ja', '9e46d5fac07613c7f9b8e50c960f66c4', 'admin-31', 62, 'image/jpeg', '500x334', 'photo30.jpg', '9e46d5fac07613c7f9b8e50c960f66c4_72c.jpg;9e46d5fac07613c7f9b8e50c960f66c4_200c.jpg', 73248, 'photo30', 1, '2014-09-08 04:19:41'),
 (32, 'ja', 'b9367e2742e88e332c15d58dbc493653', 'admin-32', 64, 'image/jpeg', '500x375', 'photo31.jpg', 'b9367e2742e88e332c15d58dbc493653_72c.jpg;b9367e2742e88e332c15d58dbc493653_200c.jpg', 62752, 'photo31', 1, '2014-09-08 04:19:41');
 
+TRUNCATE TABLE photo_config;
+INSERT INTO photo_config
+(hg_id,                     hg_value,           hg_name,                                  hg_index) VALUES
+('image_protect_copyright',       '1',                '画像著作権保護',                             1),
+('upload_image_max_size',   '500K',             'アップロード画像の最大サイズ(バイト数)', 2),
+('watermark_filename',      'default_mark.jpg', 'セキュリティ保護画像ファイル名',         3),
+('default_image_size',      '450',              '公開画像デフォルトサイズ',               4),
+('default_thumbnail_size',  '128',              'サムネール画像デフォルトサイズ',         5),
+('thumbnail_bg_color',      '#FFFFFF',              'サムネール画像背景色',         6),
+('thumbnail_type',          '0',              'サムネールタイプ',         7),
+('image_category_count',  '2',                '画像カテゴリー数',         8),
+('photo_list_item_count',  '24',                '画像一覧表示項目数',         9),
+('photo_list_order',        '0',         '画像一覧表示順',                         10),
+('photo_title_short_length',  '10',                '画像タイトル(略式)文字数',         11),
+('photo_category_password', '0',                '画像カテゴリーのパスワード制限',             12),
+('thumbnail_crop',      '1',                'サムネール画像切り取り',         13),
+('image_size',          '450',              '公開画像サイズ',               14),
+('thumbnail_size',      '128',              'サムネール画像サイズ',         15),
+('image_quality',       '100',              '画像の品質',                   16),
+('photo_list_sort_key', 'index',            '画像一覧のソートキー',         17),
+('s:photo_list_item_count',  '24',                '画像一覧表示項目数',         200),
+('s:photo_list_order',        '1',         '画像一覧表示順',                         201),
+('s:photo_title_short_length',  '7',                '画像タイトル(略式)文字数',         202),
+('s:photo_list_sort_key', 'index',            '画像一覧のソートキー',         203),
+('s:default_image_size',      '320',              '公開画像デフォルトサイズ',               204),
+('s:default_thumbnail_size',  '128',              'サムネール画像デフォルトサイズ',         205),
+('html_photo_description',  '0',                'HTML形式の画像情報(説明)',         0),
+('use_photo_date',        '1',                '画像情報(撮影日)を使用',         0),
+('use_photo_location',       '1',                '画像情報(撮影場所)を使用',         0),
+('use_photo_camera',      '1',                '画像情報(カメラ)を使用',         0),
+('use_photo_description', '1',                '画像情報(説明)を使用',         0),
+('use_photo_keyword',     '1',                '画像情報(検索キーワード)を使用',         0),
+('use_photo_category',    '1',                '画像情報(カテゴリー)を使用',         0),
+('use_photo_rate',    '1',                '画像情報(評価)を使用',         0),
+('layout_view_detail',   '<table class="photo_info table"><caption>画像情報</caption><tbody><tr><th>ID</th><td>[#CT_ID#]</td></tr><tr><th>タイトル</th><td>[#CT_TITLE#]&nbsp;[#PERMALINK#]</td></tr><tr><th>撮影者</th><td>[#CT_AUTHOR#]</td></tr><tr><th>撮影日</th><td>[#CT_DATE#]</td></tr><tr><th>場所</th><td>[#CT_LOCATION#]</td></tr><tr><th>カメラ</th><td>[#CT_CAMERA#]</td></tr><tr><th>説明</th><td>[#CT_DESCRIPTION#]</td></tr><tr><th>カテゴリー</th><td>[#CT_CATEGORY#]</td></tr><tr><th>キーワード</th><td>[#CT_KEYWORD#]</td></tr><tr><th>評価</th><td>[#RATE#]</td></tr></tbody></table>', 'レイアウト(詳細表示)',               0),
+('output_head',      '0', 'HTMLヘッダ出力', 0),
+('head_view_detail',   '<meta property="og:type" content="article" /><meta property="og:title" content="[#CT_TITLE#]" /><meta property="og:url" content="[#CT_URL#]" /><meta property="og:image" content="[#CT_IMAGE#]" /><meta property="og:description" content="[#CT_SUMMARY#]" /><meta property="og:site_name" content="[#SITE_NAME#]" />', 'ヘッダ出力(詳細表示)',               0);
 
