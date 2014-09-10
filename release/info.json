@@ -2,7 +2,8 @@
     {
         "id": "animal_world",
 	"description": "フォトギャラリー「動物の世界」。用途は会員制の画像閲覧サイト。",
-	"category": "build_site"
+	"category": "build_site",
+	"filename": "animal_world.zip",
     },
     {
         "id": "animal_world2",
