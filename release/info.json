@@ -5,11 +5,16 @@
 	"category": "build_site",
 	"filename": "animal_world.zip",
 	"version": "1.0",
-	"status": "testing"
+	"status": "testing",
+	"thumbnail": "tmp.png"
     },
     {
         "id": "animal_world2",
-	"description": "",
-	"category": "build_site"
+	"description": "フォトギャラリー「動物の世界」。用途は会員制の画像閲覧サイト。",
+	"category": "build_site",
+	"filename": "animal_world2.zip",
+	"version": "1.0",
+	"status": "testing",
+	"thumbnail": "tmp.png"
     }
 ]
