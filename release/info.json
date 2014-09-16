@@ -6,7 +6,7 @@
 	"category": "build_site",
 	"filename": "animal_world.zip",
 	"version": "1.0",
-	"status": "testing",
+	"status": "stable",
 	"thumbnail": "tmp.png",
 	"format": "install_1.0"
     },
