@@ -12,12 +12,12 @@
     },
     {
         "id": "animal_world2",
-	"title": "フォトギャラリー「動物の世界2」",
+	"title": "フォトギャラリー(会員制)「動物の世界2」",
 	"description": "フォトギャラリー機能を主とした、会員制の画像閲覧サイト。使用機能はフォトギャラリー、汎用コンテンツ、会員登録、検索等。",
 	"category": "build_site",
 	"filename": "animal_world2.zip",
 	"version": "1.0",
-	"status": "testing",
+	"status": "stable",
 	"thumbnail": "tmp.png",
 	"format": "install_1.0"
     }
