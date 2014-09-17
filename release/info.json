@@ -2,11 +2,11 @@
     {
         "id": "animal_world",
 	"title": "フォトギャラリー「動物の世界」",
-	"description": "フォトギャラリー機能を主とした、会員制の画像閲覧サイト。\n使用機能はフォトギャラリー、汎用コンテンツ、会員登録、検索等。",
+	"description": "フォトギャラリー機能を主とした画像閲覧サイト。\n使用機能はフォトギャラリー、汎用コンテンツ、検索等。",
 	"category": "build_site",
 	"filename": "animal_world.zip",
 	"version": "1.0",
-	"status": "stable",
+	"status": "testing",
 	"thumbnail": "tmp.png",
 	"format": "install_1.0"
     },
