@@ -25,6 +25,10 @@ DELETE FROM _site_def WHERE sd_id = 'site_name';
 INSERT INTO _site_def
 (sd_id,                  sd_language_id, sd_value,         sd_name) VALUES
 ('site_name',            'ja',           '世界の動物',               'サイト名');
+DELETE FROM _site_def WHERE sd_id = 'head_title';
+INSERT INTO _site_def
+(sd_id,                  sd_language_id, sd_value,         sd_name) VALUES
+('head_title',           'ja',           '世界の動物',               'HTMLヘッダtitle');
 
 -- 管理画面ページデータ(デフォルトを変更)
 UPDATE _page_id SET pg_default_sub_id = 'photo' WHERE pg_id = 'index' AND pg_type = 0;
