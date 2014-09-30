@@ -5,7 +5,7 @@
 	"description": "フォトギャラリー機能を主とした画像閲覧サイト。\n使用機能はフォトギャラリー、汎用コンテンツ、検索等。\nマルチデバイス対応。",
 	"category": "build_site",
 	"filename": "animal_world.zip",
-	"version": "1.0",
+	"version": "1.0.1",
 	"status": "stable",
 	"thumbnail": "tmp.png",
 	"format": "install_1.0"
@@ -16,7 +16,7 @@
 	"description": "フォトギャラリー機能を主とした、会員制の画像閲覧サイト。使用機能はフォトギャラリー、汎用コンテンツ、会員登録、検索等。\nマルチデバイス対応。",
 	"category": "build_site",
 	"filename": "animal_world2.zip",
-	"version": "1.0",
+	"version": "1.0.1",
 	"status": "stable",
 	"thumbnail": "tmp.png",
 	"format": "install_1.0"
